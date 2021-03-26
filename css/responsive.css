@@ -1,0 +1,145 @@
+@media (min-width: 1920px){
+	.container{
+	 	max-width: 1600px;
+	 }
+	 .bannerWrap {
+	    padding-top: 230px;
+	    padding-bottom: 230px;
+	}
+	.fbWrap {
+	    padding-top: 150px;
+	    padding-bottom: 500px;
+	}
+	.getWrap {
+	    padding: 150px 0 150px;
+	}
+}
+@media (min-width: 1600px){
+ .container-fluid{
+ 	padding-right: 3rem;
+ 	padding-left: 3rem;
+ }
+ .fbWrap {
+	    padding-top: 150px;
+	    padding-bottom: 150px;
+	}
+	.bannerWrap {
+	    padding-top: 130px;
+	    padding-bottom: 130px;
+	}
+}
+
+@media (min-width:1000px) and (max-width:1200px) {
+	a.nav-link {
+	    font-size: 0.8rem;
+	}
+	a.navbar-brand {
+	    font-size: 1.5rem;
+	}
+	li.nav-item {
+	    margin: 0rem 0.5rem;
+	}
+	.bookDemo {
+	    padding: 0.3rem 0.3rem 0.3rem 0.3rem;
+	    margin-right: 0.5rem;
+	    font-size: 0.6rem;
+	}
+	.signActon a {
+	    font-size: 0.7rem;
+	}
+	header.headerWrap {
+	    padding: 10px 0px;
+	}
+	.featuresItem p {
+	    font-size: 1rem;
+	    color: #7B92AB;
+	    margin: 0;
+	}
+	.featuresItem h3 {
+	    font-size: 1rem;
+	}
+	.freeTrailWrap h3 {
+	    font-size: 1.5rem;
+	}
+}
+@media (max-width:1023px) {
+header.headerWrap {
+    padding-bottom: 15px;
+}
+.navbar-expand-md .navbar-collapse {
+    justify-content: flex-end;
+}
+}
+@media (max-width:980px) {
+	.learnMoreWrap a {
+	    padding: 0.8rem 0.8rem;
+	    font-size: 0.8rem;
+	}
+	.getIcon img,.getIcon1 img ,.getIcon2 img {
+	    width: 80px;
+	}
+	.getInfo span {
+	    font-size: 8rem;
+	    line-height: 5rem;
+	}
+	ul.reviewList {
+	    padding-right: 50px;
+	    display: flex;
+	    flex-wrap: wrap;
+	    padding-left: 0px;
+	    margin-top: 40px;
+	}
+	
+	.successContent p {
+	    text-align: center;
+	}
+}
+@media (max-width:767px) {
+	section.freeTrailWrap {
+	    text-align: center;
+	}
+	.freeTrailWrap h3 {
+	    margin-bottom: 1rem;
+	    font-size: 1.5rem;
+	}
+	.bannerContent {
+	    padding: 2rem 0;
+	    text-align: center;
+	}
+	.featuresItem .w-75.pr-5 {
+	    padding-right: 10px !important;
+	}
+	.featuresItem p {
+	    font-size: 1rem;
+	    margin: 0;
+	}
+	ul.reviewList li {
+	    width: 100%;
+	    flex: 100% 0;
+	}
+	.rContent {
+	    left: 0px;
+	}
+	.successWrap .col-md-4 {
+	    padding-left: 1rem !important;
+	    padding-right: 1rem !important;
+	}
+	.successContent {
+	    padding: 15px;
+	}
+}
+
+@media (max-width:570px) {
+	.learnMoreWrap a {
+	    padding: 0.8rem 0.8rem;
+	    font-size: 1rem;
+	    display: block;
+	    margin-bottom: 1rem;
+	}
+
+}	
+
+@media (max-width:414px) {
+
+
+}
